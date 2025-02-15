@@ -36,18 +36,17 @@ pip install -r requirements.txt
 
 ```
 ├── .env                  # Variables de entorno y configuración
-├── .env _ejemplo        # Ejemplo de configuración de variables de entorno
-├── .gitignore           # Archivos y directorios ignorados por git
+├── env _ejemplo        # Ejemplo de configuración de variables de entorno
 ├── credenciales.json    # Credenciales de la API de Google
 ├── gmail_responder.py   # Script principal del auto respondedor
 ├── requirements.txt     # Dependencias del proyecto
-├── token.json          # Token de autenticación generado
+├── token.json          # Token de autenticación generado (luego de conectar)
 └── README.md           # Documentación del proyecto
 ```
 
 ## Configuración
 
-1. Copia el archivo `.env _ejemplo` a `.env`
+1. Copia el archivo `env _ejemplo` a `.env`
 2. Edita el archivo `.env` con tus configuraciones personales:
    - Configuración de la cuenta de Gmail
    - Mensaje de respuesta automática
